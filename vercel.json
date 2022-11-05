@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/games/",
+      "destination": "https://freq-adamsome.vercel.app/"
+    },
+    {
+      "source": "/games/:match*",
+      "destination": "https://freq-adamsome.vercel.app/:match*"
+    },
+    {
+      "source": "/",
+      "destination": "https://cv-one-beta.vercel.app/"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://cv-one-beta.vercel.app/:match*"
+    }
+  ]
+}
