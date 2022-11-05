@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/games/",
       "destination": "https://freq-adamsome.vercel.app/"
@@ -7,7 +7,9 @@
     {
       "source": "/games/:match*",
       "destination": "https://freq-adamsome.vercel.app/:match*"
-    },
+    }
+  ],
+  "rewrites": [
     {
       "source": "/",
       "destination": "https://cv-one-beta.vercel.app/"
