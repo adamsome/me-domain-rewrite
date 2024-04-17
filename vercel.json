@@ -7,6 +7,14 @@
     {
       "source": "/games/:match*",
       "destination": "https://freq-adamsome.vercel.app/:match*"
+    },
+    {
+      "source": "/lqr/",
+      "destination": "https://lqr.vercel.app/"
+    },
+    {
+      "source": "/lqr/:match*",
+      "destination": "https://lqr.vercel.app/:match*"
     }
   ],
   "rewrites": [
